@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /* background-color: #E0B0FF; */
+    background-size: 100%;
+    background-image: url(/10800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80vw;
+    min-width: 300px;
+    max-width: 1500px;
+    height: 90vh;
+    background-color: #ffffff;
+    margin-top: 7px;
+    border-radius: 30px;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.todoMainHeading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.addToDoListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listInputBox {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+
+.addListButton {
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.displayLists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 10px;
+    width: 80%;
+}
+
+
+
+.todoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 250px;
+    height: 5vw;
+    max-height: 200px;
+    min-height: 100px;
+    background-color: #FFFDD0;
+    box-shadow: 5px 5px 5px #888888;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 0.5rem 0.4rem 0.5rem 0.6rem;
+}
+
+.todoHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteTodoBtnHolder {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.deleteTodoButton {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: red;
+    background-color: transparent;
+
+}
+
+.dMandDeleteTodo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+
+.todoTitle {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dateModified {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.deleteBtnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 94%;
+    margin-bottom: 2rem;
+}
+
+.deleteAllButton {
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    outline: none;
+    background-color: transparent;
+    color: red;
+
+}
