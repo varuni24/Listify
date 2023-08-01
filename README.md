@@ -1,9 +1,9 @@
 # Listify
 
 <p align="center">
-  <img src="readmeImgs/main page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
-  <img src="readmeImgs/search page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
-  <img src="readmeImgs/recipe page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/main page.jpeg" alt="Listify Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/to-do list.jpeg" alt="Listify Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/show incomplete.jpeg" alt="Listify Banner" width="600" height="300" class="centered-image" />
 </p>
 
 Listify is a to-do app built using Redux. It allows users to allows users to create/manage multiple to-do lists. Users can click on a specific to-do list to view and manage its associated tasks by adding, editing or deleting their tasks. They can also mark tasks as completed and see the list of incompleted tasks. With its user-friendly interface, Listify enables individuals to create their to-do lists and manage their time and tasks in an efficient manner
